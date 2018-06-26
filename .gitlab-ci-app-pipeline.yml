@@ -1,0 +1,12 @@
+image: maven:latest
+
+stages:
+  - build
+
+variables:
+  HOMOL_BRANCH_NAME: homolog
+
+build-source:
+  stage: build
+  script:
+    - echo 'TESTE PIPELINE CENTRALIZADO'
